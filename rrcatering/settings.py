@@ -25,7 +25,7 @@ SECRET_KEY = '#3oonrc-7g7@_#ep+@@tj+75^pl*q+u92shoc74dnesocj)&8f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1:8000']
+ALLOWED_HOSTS = ['127.0.0.1:8000' 'rrcatering.herokuapp.com']
 
 STATICFILES_DIRS = [
     "/projects/1st/rrcaterings/static",
