@@ -28,9 +28,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = [ 'rrcatering.herokuapp.com']
 
-server.listen(port,()=>{  // do not add localhost here if you are deploying it
-    console.log("server listening to port "+port);
-});
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
