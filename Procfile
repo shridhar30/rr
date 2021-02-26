@@ -1,1 +1,1 @@
-web: gunicorn rrcaterings.wsgi --log-file -
+web: gunicorn rrcatering.wsgi --log-file -
