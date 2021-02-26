@@ -26,7 +26,11 @@ SECRET_KEY = '#3oonrc-7g7@_#ep+@@tj+75^pl*q+u92shoc74dnesocj)&8f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1:8000', 'rrcatering.herokuapp.com']
+ALLOWED_HOSTS = [ 'rrcatering.herokuapp.com']
+
+server.listen(port,()=>{  // do not add localhost here if you are deploying it
+    console.log("server listening to port "+port);
+});
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
