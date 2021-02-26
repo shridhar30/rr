@@ -1,1 +1,1 @@
-web: gunicorn rrcatering:app
+web: gunicorn rrcatering.wsgi --log-file -
