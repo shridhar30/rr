@@ -1,1 +1,1 @@
-web: gunicorn rrcatering.wsgi --log-file -
+web: gunicorn --log-file=- onbytes.wsgi:rrcatering
