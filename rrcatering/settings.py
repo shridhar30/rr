@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,6 +27,8 @@ SECRET_KEY = '#3oonrc-7g7@_#ep+@@tj+75^pl*q+u92shoc74dnesocj)&8f'
 DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1:8000', 'rrcatering.herokuapp.com']
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
     "/projects/1st/rrcaterings/static",
